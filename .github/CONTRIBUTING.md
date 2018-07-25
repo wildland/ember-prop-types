@@ -6,8 +6,8 @@ In order to maintain consistency, we ask contributors to follow the following gu
 Coming Soon
 
 ## Pull Requests
-We use [`pr-bumper`](github.com/ciena-blueplanet/pr-bumper) in our projects, so every pull request should include a
-comment about what kind of change is being provided (think [`semver`](semver.org)). The [`README`](github.com/ciena-blueplanet/pr-bumper/blob/master/README.md#pull-requests) from `pr-bumper` has more details,
+We use [`pr-bumper`](https://github.com/ciena-blueplanet/pr-bumper) in our projects, so every pull request should include a
+comment about what kind of change is being provided (think [`semver`](https://semver.org)). The [`README`](https://github.com/ciena-blueplanet/pr-bumper/blob/master/README.md#pull-requests) from `pr-bumper` has more details,
 but the gist of it is you need to include a directive in your pull request description that tells `pr-bumper` whether
 the change is `#major#`, `#minor#`, `#patch#` or `#none#`.
 
@@ -19,7 +19,7 @@ is merged under a section with the new version number that was created as a resu
 We lint all the things.
 
 ### `.js` files
-We use an extension of [`standard`](standardjs.com), so if your editor can run `eslint`, you should be all set.
+We use an extension of [`standard`](https://standardjs.com), so if your editor can run `eslint`, you should be all set.
 
 ### `.scss` files
 We use `sass-lint` with nearly default rules (except `smacss` property order)
